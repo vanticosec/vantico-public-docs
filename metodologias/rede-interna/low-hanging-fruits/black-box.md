@@ -56,6 +56,8 @@ Validar se o SMB permite o acesso anônimo as shares, pode ser utilizando o segu
 nxc smb (alvo) -u 'guest' -p '' --shares
 ```
 
+Caso identificar alguma share com acesso, deve ser validado se é possível **inserir** e **ler** arquivos. Durante esse processo deve-se buscar por informações sensíveis presentes em arquivos.
+
 ***
 
 #### **SMBv1**
