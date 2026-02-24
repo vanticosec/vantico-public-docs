@@ -55,3 +55,8 @@
   * [ ] SSH
   * [ ] Banco de dados
   * [ ] RDP
+  * [ ] Telnet
+* [ ] Reutilização de senhas
+* [ ] Contas de usuários com permissões de Domain Admin
+* [ ] Uso de Telnet
+* [ ] Segregação de rede limitada

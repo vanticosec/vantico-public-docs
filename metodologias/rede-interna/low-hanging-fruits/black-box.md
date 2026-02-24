@@ -169,3 +169,32 @@ Realizar ataques de brute force nos serviços identificados, como:
 * Banco de dados
 * RDP
 
+***
+
+#### Reutilização de senhas
+
+Caso uma credencial for comprometida, deve-se testar se a mesma acessa outros hosts e serviços usando a mesma combinação, caso afirmativo, é identificado uma reutilização de senhas.
+
+***
+
+#### Contas de usuários com permissões de Domain Admin
+
+Através de ferramentas como _BloodHound_, podemos validar se existem contas de usuários com privilégios de _Domain Admin_.
+
+***
+
+#### Uso de Telnet
+
+Validar se a porta (geralmente) 23 está aberta, após isso realizar tentativa de conexão.
+
+O Telnet é um protocolo que transmite as informações em texto claro, o que torna fácil de explorar um ataque _Man-in-the-Middle_ (MitM).
+
+***
+
+#### Segregação de rede limitada
+
+Identificar se um usuário comum pode acessar outras redes por exemplo:
+
+* Usuário interno usa a rede 10.0.0.1/24, porém tem permissões para interagir com a sub-rede 192.168.0.1.
+
+Este teste pode ser feito realizando scans com o _Nmap_.
