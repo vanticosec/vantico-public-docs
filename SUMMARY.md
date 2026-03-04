@@ -85,6 +85,7 @@
   * [Low Hanging Fruits](metodologias/aplicacoes-web/low-hanging-fruits/README.md)
     * [Black Box](metodologias/aplicacoes-web/low-hanging-fruits/black-box.md)
     * [Gray Box](metodologias/aplicacoes-web/low-hanging-fruits/gray-box.md)
+    * [Data Masking & Privacy](metodologias/aplicacoes-web/low-hanging-fruits/data-masking-and-privacy.md)
   * [Gerando Valor](metodologias/aplicacoes-web/gerando-valor.md)
   * [Técnicas](metodologias/aplicacoes-web/tecnicas.md)
   * [Automatizando o Scan por Secrets](metodologias/aplicacoes-web/automatizando-o-scan-por-secrets.md)
