@@ -11,20 +11,6 @@
   * [Políticas](empresa/politicas.md)
   * [Valores da Vantico](empresa/valores-da-vantico.md)
   * [Trabalho Remoto](empresa/trabalho-remoto.md)
-* [Serviços](empresa/servicos/README.md)
-  * [Inteligência de ameaças](empresa/servicos/inteligencia-de-ameacas.md)
-  * [Revisão de código seguro](empresa/servicos/revisao-de-codigo-seguro.md)
-  * [Pentest WEB](empresa/servicos/pentest-web.md)
-  * [Pentest API](empresa/servicos/pentest-api.md)
-  * [Pentest Mobile](empresa/servicos/pentest-mobile.md)
-  * [Pentest rede interna](empresa/servicos/pentest-rede-interna.md)
-  * [Pentest rede externa](empresa/servicos/pentest-rede-externa.md)
-  * [Revisão de configuração cloud](empresa/servicos/revisao-de-configuracao-cloud.md)
-  * [Pentest Azure Active Directory](empresa/servicos/pentest-azure-active-directory.md)
-  * [Pentest Desktop](empresa/servicos/pentest-desktop.md)
-  * [Pentest IA/LLM](empresa/servicos/pentest-ia-llm.md)
-  * [Red Team e Emulação de Adversário](empresa/servicos/red-team-e-emulacao-de-adversario.md)
-  * [Spear Phishing](empresa/servicos/spear-phishing.md)
 
 ## Parceiros
 
