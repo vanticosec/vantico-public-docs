@@ -1,15 +1,15 @@
-# Técnicas
+# Técnicas Avançadas
 
 Nesta seção você encontra:
 
-* [Injeção de Modelo no Servidor](tecnicas.md#injecao-de-modelo-no-servidor)
-* [Controle de Conta via Desvio de Limite de Taxa](tecnicas.md#controle-de-conta-via-desvio-de-limite-de-taxa)
-* [Exposição Excessiva de Dados](tecnicas.md#exposicao-excessiva-de-dados)
-* [Account Takeover](tecnicas.md#account-takeover)
-* [Wordpress](tecnicas.md#wordpress)
-* [Mattermost](tecnicas.md#mattermost)
-* [Duplo Fator / MFA](tecnicas.md#duplo-fator-mfa)
-* [Race Condition](tecnicas.md#race-condition)
+* [Injeção de Modelo no Servidor](./#injecao-de-modelo-no-servidor)
+* [Controle de Conta via Desvio de Limite de Taxa](./#controle-de-conta-via-desvio-de-limite-de-taxa)
+* [Exposição Excessiva de Dados](./#exposicao-excessiva-de-dados)
+* [Account Takeover](./#account-takeover)
+* [Wordpress](./#wordpress)
+* [Mattermost](./#mattermost)
+* [Duplo Fator / MFA](./#duplo-fator-mfa)
+* [Race Condition](./#race-condition)
 
 
 
@@ -287,7 +287,7 @@ Deve ficar dessa maneira:
 
 
 
-<figure><img src="../../.gitbook/assets/img.jpg" alt=""><figcaption><p>Figura: Requisição XMLRPC</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/img.jpg" alt=""><figcaption><p>Figura: Requisição XMLRPC</p></figcaption></figure>
 
 
 
@@ -315,11 +315,11 @@ Dentro do valor "_param_" você insere as credenciais para testar, caso a respos
 
 
 
-<figure><img src="../../.gitbook/assets/img2.png" alt=""><figcaption><p>Figura: Credencial incorreta</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/img2.png" alt=""><figcaption><p>Figura: Credencial incorreta</p></figcaption></figure>
 
 
 
-<figure><img src="../../.gitbook/assets/img3.png" alt=""><figcaption><p>Figura: Credencial correta</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/img3.png" alt=""><figcaption><p>Figura: Credencial correta</p></figcaption></figure>
 
 
 

@@ -8,7 +8,7 @@ description: ProjectDiscovery
 
 Os seus projetos mais famosos são: **Nuclei, Subfinder e Katana.**
 
-<figure><img src="../../.gitbook/assets/discovery.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/discovery.png" alt=""><figcaption></figcaption></figure>
 
 **Nuclei**
 
@@ -41,7 +41,7 @@ nuclei -u (domínio:porta)
 nuclei -l /caminho_arquivo/arquivo_com_alvos.txt
 ```
 
-<figure><img src="../../.gitbook/assets/nuclei.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/nuclei.png" alt=""><figcaption></figcaption></figure>
 
 * Para utilizá-lo junto com outras ferramentas:
 
@@ -81,7 +81,7 @@ nuclei -u (https://domínio.com) -s critical,high,medium,low
 subfinder -d (domínio.com)
 ```
 
-<figure><img src="../../.gitbook/assets/subfinder.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/subfinder.png" alt=""><figcaption></figcaption></figure>
 
 * Para salvar as informações em um arquivo:
 
@@ -89,7 +89,7 @@ subfinder -d (domínio.com)
 subfinder -d (domínio.com) -o (nome_do_arquivo.txt)
 ```
 
-<figure><img src="../../.gitbook/assets/subfinder2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/subfinder2.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -105,7 +105,7 @@ subfinder -d (domínio.com) -o (nome_do_arquivo.txt)
 katana -u (https://domínio.com)
 ```
 
-<figure><img src="../../.gitbook/assets/katana.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/katana.png" alt=""><figcaption></figcaption></figure>
 
 * Para mais de um domínio:
 
@@ -119,9 +119,9 @@ katana -u (https://domínio.com),(https://domínio2.com)
 katana -list (arquivo.txt)
 ```
 
-<figure><img src="../../.gitbook/assets/katana2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/katana2.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/katana3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/katana3.png" alt=""><figcaption></figcaption></figure>
 
 
 

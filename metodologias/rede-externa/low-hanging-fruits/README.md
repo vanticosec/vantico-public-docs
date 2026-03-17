@@ -4,4 +4,4 @@ Abaixo está as páginas com o low hanging para aplicações web, black box e gr
 
 
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Black Box</strong></td><td><a href="../../aplicacoes-web/low-hanging-fruits/black-box.md">black-box.md</a></td></tr><tr><td><strong>Gray Box</strong></td><td><a href="../../aplicacoes-web/low-hanging-fruits/gray-box.md">gray-box.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Black Box</strong></td><td><a href="../../aplicacao-web/low-hanging-fruits/black-box.md">black-box.md</a></td></tr><tr><td><strong>Gray Box</strong></td><td><a href="../../aplicacao-web/low-hanging-fruits/gray-box.md">gray-box.md</a></td></tr></tbody></table>
