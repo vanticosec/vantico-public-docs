@@ -39,7 +39,7 @@ POST /api/checkout
 ### Abuso de Cupons
 
 * Tentar aplicar múltiplos cupons simultaneamente
-* Reutilizar cupom de uso único — race condition com requisições paralelas
+* Reutilizar cupom de uso único, race condition com requisições paralelas
 * Brute-force de códigos promocionais simples (3-6 dígitos numéricos)
 * Manipular valor do cupom se ele se reflete em parâmetro da requisição
 * Usar cupons expirados
@@ -61,7 +61,7 @@ engine.start(concurrentConnections=50)
 
 ### Frete e Endereço
 
-* Inserir CEP no início do checkout, alterar para outro CEP na finalização — preço muda?
+* Inserir CEP no início do checkout, alterar para outro CEP na finalização, preço muda?
 * Alterar país/CEP para frete menor após cálculo
 * Inserir caracteres Unicode ou scripts em campos de endereço
 

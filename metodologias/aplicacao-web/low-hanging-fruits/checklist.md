@@ -59,9 +59,7 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 * [ ] [WPScan](https://github.com/wpscanteam/wpscan)
 * [ ] [ffuf](https://github.com/ffuf/ffuf)
 
-
-
-**Low Hanging Fruits - Checklist**
+### **Low Hanging Fruits - Checklist**
 
 * [ ] Ausência de cabeçalho
 * [ ] Uso de cabeçalho depreciado
@@ -119,82 +117,4 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 * [ ] Verificação se o usuário pode alterar a senha
 * [ ] Token de sessão passado via GET
 * [ ] Aplicação sem mecanismo de logout
-
-
-
-**Low Hanging Fruits - Checkout**
-
-* [ ] Manipulação de Preço
-* [ ] Alterar valores no corpo da requisição (price, total, shipping)
-* [ ] Testar diferença entre valor do front e valor cobrado de fato no back-end
-* [ ] Verificar se o preço é calculado no client-side
-* [ ] Gateway de Pagamento
-* [ ] Manipular parâmetros em redirects para gateways (ex: PayPal, Stripe)
-* [ ] Forjar callbacks/webhooks com status: paid
-* [ ] Interceptar responses e alterar valores
-* [ ] Lógica de Checkout no Frontend
-* [ ] Inspecionar e alterar variáveis via DevTools (cart.total = 0.01)
-* [ ] Verificar cupons ou frete gratuito aplicados via JS
-* [ ] Bypass de validações feitas apenas no navegador
-* [ ] Abuso de Cupons
-* [ ] Tentar usar múltiplos cupons
-* [ ] Reutilizar cupons de uso único (race condition)
-* [ ] Brute-force de códigos promocionais simples
-* [ ] Tentar manipular o valor do cupom caso ele reflita em algum parâmetro ou na response
-* [ ] Fazer compras simultâneas de item com estoque limitado
-* [ ] Bypass de limite de quantidade
-* [ ] Testar compras mesmo com estoque zerado
-* [ ] Manipulação de Endereço / Frete
-* [ ] Alterar país/CEP para frete mais barato
-  * Inserir um CEP anteriormente ao checkout final, na finalização, alterar para outro CEP para validar se o preço altera ou não
-* [ ] Inserir Unicode ou scripts em campos de endereço
-* [ ] Tentar enviar para endereços bloqueados
-* [ ] Lógica de Promoções / Brindes
-* [ ] Adicionar item grátis, remover o item elegível e finalizar compra
-* [ ] Alterar a quantidade de brindes (qtd = 100)
-* [ ] Abuso de Reembolso
-* [ ] Solicitar reembolso após alterar dados da compra
-* [ ] Tentar reembolso múltiplo via race condition
-* [ ] Simular devolução maior que a quantidade comprada
-
-
-
-**Low Hanging Fruits - Magic link**
-
-* [ ] Verificar se o token é criptograficamente aleatório (>=128 bits)
-* [ ] Verificar se o token segue algum padrão previsível
-* [ ] Testar se o magic link pode ser usado mais de uma vez
-* [ ] Testar se o magic link pode ser usado após logout
-* [ ] Verificar tempo de validade do link (ideal de 5-15 min)
-  * [ ] Validar com mudança de fuso horário / relógio
-* [ ] Testar troca de parâmetros (user\_id, email, account\_id)
-* [ ] Testar se ocorre enumeração de usuários na geração do link
-  * [ ] Enumeração por tempo de resposta
-* [ ] Verificar se o token aparece na URL
-* [ ] Verificar se o token aparece no Referrer Header
-* [ ] Verificar se o link funciona com HTTP
-* [ ] Rate limit na geração do link
-
-
-
-**Low Hanging Fruits - Aplicação financeira**
-
-* [ ] Ausência de senha de confirmação no procedimento de transação
-* [ ] Repetir o mesmo parâmetro múltiplas vezes
-* [ ] Omitir um parâmetro ou valor
-* [ ] Inserir números negativos
-* [ ] Inserir números decimais
-* [ ] Inserir números grandes
-* [ ] Inserir números pequenos
-* [ ] Inserir zero ou nulo
-* [ ] Inserir notação científica
-* [ ] Inserir _reserverd words_
-  * [ ] NaN
-  * [ ] Infinity
-  * [ ] -NaN
-  * [ ] -Infinity
-* [ ] Mostrar os dados completos de um cartão salvo
-* [ ] Enumeração de cartão através de registro de cartão existente
-* [ ] Usar múltiplos códigos de desconto
-* [ ] Usar códigos de desconto expirados
 
