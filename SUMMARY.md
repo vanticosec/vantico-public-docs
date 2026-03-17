@@ -85,5 +85,4 @@
     * [Password Spray](metodologias/aplicacao-web/tecnicas-avancadas/password-spray.md)
     * [Automatizando o Scan por Secrets](metodologias/aplicacao-web/tecnicas-avancadas/automatizando-o-scan-por-secrets.md)
     * [Gerando wordlists efetivas](metodologias/aplicacao-web/tecnicas-avancadas/gerando-wordlists-efetivas.md)
-  * [Vulnerabilidades para compliance](metodologias/aplicacao-web/vulnerabilidades-para-compliance.md)
 * [Ferramentas](metodologias/ferramentas.md)
