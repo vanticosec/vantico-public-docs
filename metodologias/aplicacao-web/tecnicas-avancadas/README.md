@@ -221,13 +221,21 @@ Assim irá retornar usuários presentes na plataforma, porém apenas informaçõ
 
 Wordpress possui algumas páginas como default e que caso não seja removidas ou modificadas, muita das vezes apresentam informações como versão da aplicação. As páginas padrão são:
 
-_https://(alvo).com.br/license.txt_\
-_https://(alvo).com.br/readme.html_\
-_https://(alvo).com.br/wp-admin/login.php_\
-_https://(alvo).com.br/wp-admin/wp-login.php_\
-_https://(alvo).com.br/login.php_\
-_https://(alvo).com.br/wp-login.php_\
-_https://(alvo).com.br/xmlrpc.php_
+```
+https://(alvo).com.br/license.txt
+https://(alvo).com.br/readme.html
+https://(alvo).com.br/wp-admin/login.php
+https://(alvo).com.br/wp-admin/wp-login.php
+https://(alvo).com.br/login.php
+https://(alvo).com.br/wp-login.php
+https://(alvo).com.br/xmlrpc.php
+https://(alvo).com.br/wp-admin/upgrade.php
+https://(alvo).com.br/wp-admin/install.php
+https://(alvo).com.br/wp-mail.php
+https://(alvo).com.br/wp-admin/setup-config.php
+```
+
+
 
 
 
