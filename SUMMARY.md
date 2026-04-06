@@ -8,7 +8,6 @@
 
 * [Vantico](empresa/vantico/README.md)
   * [Empresa](empresa/vantico/empresa.md)
-  * [Políticas](empresa/politicas.md)
   * [Valores da Vantico](empresa/valores-da-vantico.md)
   * [Trabalho Remoto](empresa/trabalho-remoto.md)
 
