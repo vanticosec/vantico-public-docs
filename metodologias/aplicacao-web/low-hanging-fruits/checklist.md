@@ -44,6 +44,7 @@ openssl s_client -connect (domínio.com):443 #GET / HTTP/1.0
 **Low Hanging Fruits - Tools**
 
 * [ ] Executar low hanging fruits
+* [ ] Executar low hanging fruits Data Masking & Privacy
 * [ ] [Nmap](https://github.com/nmap/nmap)
 * [ ] [Nuclei](https://github.com/projectdiscovery/nuclei)
 * [ ] [Katana](https://github.com/projectdiscovery/katana)
