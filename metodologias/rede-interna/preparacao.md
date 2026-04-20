@@ -1,0 +1,5 @@
+# Preparação
+
+**Máquina Virtual**
+
+**VPN**
